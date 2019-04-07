@@ -25,6 +25,10 @@ Familar config
 alias android='emulator -avd Pixel_2_XL_API_28'
 alias rest='pmset displaysleepnow'
 alias home='pmset sleepnow'
+
+function dir() {
+    echo "`pwd`/$1"
+}
 ```
 
 Servers:
